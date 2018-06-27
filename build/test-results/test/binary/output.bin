@@ -1,0 +1,61 @@
+Y06-26 13:59:06.625 127.0.0.1:54321       41547  #t worker INFO: ----- H2O started  -----
+^06-26 13:59:06.664 127.0.0.1:54321       41547  #t worker INFO: Build git branch: rel-wheeler
+y06-26 13:59:06.665 127.0.0.1:54321       41547  #t worker INFO: Build git hash: a0f122d0061b59269364bab566ce80a166b369a0
+q06-26 13:59:06.668 127.0.0.1:54321       41547  #t worker INFO: Build git describe: jenkins-3.16.0.3-14-ga0f122d
+{06-26 13:59:06.669 127.0.0.1:54321       41547  #t worker INFO: Build project version: 3.16.0.4 (latest version: 3.20.0.2)
+`06-26 13:59:06.671 127.0.0.1:54321       41547  #t worker INFO: Build age: 5 months and 10 days
+T06-26 13:59:06.674 127.0.0.1:54321       41547  #t worker INFO: Built by: 'jenkins'
+`06-26 13:59:06.675 127.0.0.1:54321       41547  #t worker INFO: Built on: '2018-01-15 21:45:38'
+A06-26 13:59:06.680 127.0.0.1:54321       41547  #t worker INFO: 
+Æ06-26 13:59:06.680 127.0.0.1:54321       41547  #t worker INFO: *** Your H2O version is too old! Please download the latest version 3.20.0.2 from http://h2o.ai/download/ ***
+A06-26 13:59:06.684 127.0.0.1:54321       41547  #t worker INFO: 
+e06-26 13:59:06.687 127.0.0.1:54321       41547  #t worker INFO: Watchdog Build git branch: (unknown)
+c06-26 13:59:06.689 127.0.0.1:54321       41547  #t worker INFO: Watchdog Build git hash: (unknown)
+g06-26 13:59:06.692 127.0.0.1:54321       41547  #t worker INFO: Watchdog Build git describe: (unknown)
+j06-26 13:59:06.693 127.0.0.1:54321       41547  #t worker INFO: Watchdog Build project version: (unknown)
+]06-26 13:59:06.695 127.0.0.1:54321       41547  #t worker INFO: Watchdog Built by: (unknown)
+]06-26 13:59:06.695 127.0.0.1:54321       41547  #t worker INFO: Watchdog Built on: (unknown)
+j06-26 13:59:06.697 127.0.0.1:54321       41547  #t worker INFO: KrbStandalone Build git branch: (unknown)
+h06-26 13:59:06.700 127.0.0.1:54321       41547  #t worker INFO: KrbStandalone Build git hash: (unknown)
+l06-26 13:59:06.704 127.0.0.1:54321       41547  #t worker INFO: KrbStandalone Build git describe: (unknown)
+o06-26 13:59:06.705 127.0.0.1:54321       41547  #t worker INFO: KrbStandalone Build project version: (unknown)
+b06-26 13:59:06.706 127.0.0.1:54321       41547  #t worker INFO: KrbStandalone Built by: (unknown)
+b06-26 13:59:06.707 127.0.0.1:54321       41547  #t worker INFO: KrbStandalone Built on: (unknown)
+q06-26 13:59:06.708 127.0.0.1:54321       41547  #t worker INFO: Processed H2O arguments: [-name, h2o_test_cloud]
+\06-26 13:59:06.709 127.0.0.1:54321       41547  #t worker INFO: Java availableProcessors: 4
+`06-26 13:59:06.710 127.0.0.1:54321       41547  #t worker INFO: Java heap totalMemory: 123.0 MB
+]06-26 13:59:06.712 127.0.0.1:54321       41547  #t worker INFO: Java heap maxMemory: 1.78 GB
+v06-26 13:59:06.713 127.0.0.1:54321       41547  #t worker INFO: Java version: Java 1.8.0_91 (from Oracle Corporation)
+®06-26 13:59:06.714 127.0.0.1:54321       41547  #t worker INFO: JVM launch parameters: [-Djava.security.manager=worker.org.gradle.process.internal.worker.child.BootstrapSecurityManager, -Dorg.gradle.native=false, -Dfile.encoding=UTF-8, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+f06-26 13:59:06.715 127.0.0.1:54321       41547  #t worker INFO: OS version: Mac OS X 10.13.1 (x86_64)
+a06-26 13:59:06.716 127.0.0.1:54321       41547  #t worker INFO: Machine physical memory: 8.00 GB
+`06-26 13:59:06.718 127.0.0.1:54321       41547  #t worker INFO: X-h2o-cluster-id: 1530046667137
+S06-26 13:59:06.719 127.0.0.1:54321       41547  #t worker INFO: User name: 'sjena'
+[06-26 13:59:06.720 127.0.0.1:54321       41547  #t worker INFO: IPv6 stack selected: false
+Æ06-26 13:59:06.725 127.0.0.1:54321       41547  #t worker INFO: Network address/interface is not reachable in 150ms: /fe80:0:0:0:c085:96d2:8353:ed5b%utun0/name:utun0 (utun0)
+Æ06-26 13:59:06.733 127.0.0.1:54321       41547  #t worker INFO: Network address/interface is not reachable in 150ms: /fe80:0:0:0:58dd:79ff:fe7d:df31%awdl0/name:awdl0 (awdl0)
+®06-26 13:59:06.734 127.0.0.1:54321       41547  #t worker INFO: Network address/interface is not reachable in 150ms: /fe80:0:0:0:108e:c326:bf4f:dda4%en0/name:en0 (en0)
+î06-26 13:59:06.737 127.0.0.1:54321       41547  #t worker INFO: Network address/interface is not reachable in 150ms: /172.17.118.249/name:en0 (en0)
+ú06-26 13:59:06.739 127.0.0.1:54321       41547  #t worker INFO: Network address/interface is not reachable in 150ms: /fe80:0:0:0:0:0:0:1%lo0/name:lo0 (lo0)
+ï06-26 13:59:06.739 127.0.0.1:54321       41547  #t worker INFO: Network address/interface is not reachable in 150ms: /0:0:0:0:0:0:0:1/name:lo0 (lo0)
+ê06-26 13:59:06.740 127.0.0.1:54321       41547  #t worker INFO: Network address/interface is not reachable in 150ms: /127.94.0.1/name:lo0 (lo0)
+j06-26 13:59:06.741 127.0.0.1:54321       41547  #t worker INFO: Possible IP Address: lo0 (lo0), 127.0.0.1
+]06-26 13:59:06.741 127.0.0.1:54321       41547  #t worker INFO: Multiple local IPs detected:
+A06-26 13:59:06.741 127.0.0.1:54321       41547  #t worker INFO: 
+k06-26 13:59:06.741 127.0.0.1:54321       41547  #t worker INFO: Attempting to determine correct address...
+s06-26 13:59:06.743 127.0.0.1:54321       41547  #t worker INFO: Failed to determine IP, falling back to localhost.
+f06-26 13:59:06.748 127.0.0.1:54321       41547  #t worker INFO: H2O node running in unencrypted mode.
+h06-26 13:59:06.772 127.0.0.1:54321       41547  #t worker INFO: Internal communication uses port: 54322
+06-26 13:59:06.772 127.0.0.1:54321       41547  #t worker INFO: Listening for HTTP and REST traffic on http://127.0.0.1:54321/
+û06-26 13:59:06.783 127.0.0.1:54321       41547  #t worker INFO: H2O cloud name: 'h2o_test_cloud' on /127.0.0.1:54321, discovery address /225.25.135.226:57625
+¢06-26 13:59:06.785 127.0.0.1:54321       41547  #t worker INFO: If you have trouble connecting, try SSH tunneling from your local machine (e.g., via port 55555):
+å06-26 13:59:06.785 127.0.0.1:54321       41547  #t worker INFO:   1. Open a terminal and run 'ssh -L 55555:localhost:54321 sjena@127.0.0.1'
+r06-26 13:59:06.785 127.0.0.1:54321       41547  #t worker INFO:   2. Point your browser to http://localhost:55555
+b06-26 13:59:07.435 127.0.0.1:54321       41547  #t worker INFO: Log dir: '/tmp/h2o-sjena/h2ologs'
+k06-26 13:59:07.436 127.0.0.1:54321       41547  #t worker INFO: Cur dir: '/Volumes/TeraDrive/Code/gannars'
+h06-26 13:59:07.452 127.0.0.1:54321       41547  #t worker INFO: HDFS subsystem successfully initialized
+[06-26 13:59:07.453 127.0.0.1:54321       41547  #t worker INFO: S3 subsystem not available
+b06-26 13:59:07.454 127.0.0.1:54321       41547  #t worker INFO: Flow dir: '/Users/sjena/h2oflows'
+j06-26 13:59:07.560 127.0.0.1:54321       41547  #t worker INFO: Cloud of size 1 formed [/127.0.0.1:54321]
+v06-26 13:59:07.769 127.0.0.1:54321       41547  #t worker INFO: Registered parsers: [GUESS, ARFF, XLS, SVMLight, CSV]
+ë06-26 13:59:08.131 127.0.0.1:54321       41547  #t worker INFO: Locking cloud to new members, because water.droplets.H2OJavaDroplet$StringHolder
