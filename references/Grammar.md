@@ -24,7 +24,7 @@
 				| ( ; ⟨statement⟩⟨statement⟩+)
 				| (⇑⟨word⟩ ⟨term⟩∗)
 	```
-     - After (sentence) disassembly, the statement represents a linked list of entries on the Holochain. Each entry is a term/word
+     - After (sentence) disassembly, the statement represents a linked list of entries on the Holochain. Each entry is a word, at first in the English Language.
 
  - `<copula>` (below)
  	```
@@ -32,6 +32,7 @@
 			|◦→ | →◦|◦→◦
 			|/⇒ |\⇒ ||⇒ |/⇔||⇔
 	```
+    - Copulae have their own functions each, and deserve their own section - below.
 
  - `⟨tense⟩ ::= /⇒ | \⇒ | |⇒`
 
@@ -47,25 +48,36 @@
 			| (/ ⟨term⟩ ⟨term⟩∗ ⋄ ⟨term⟩∗)
 			| (\ ⟨term⟩ ⟨term⟩∗ ⋄ ⟨term⟩∗)
 	```
+    - Non-Terminals only, no translation necessary.
 
  - `⟨variable⟩ ::= ⟨independent-variable⟩ | ⟨dependent-variable⟩ | ⟨query-variable⟩`
+     - Intra-grammar term - an inference tool. Does not need to be translated.
 
  - `<dependent-variable> ::= ‘#′ [⟨word⟩‘(′⟨independent-variable⟩∗‘)′]`
+     - Intra-grammar term - an inference tool. Does not need to be translated.
+    
  - `<query-variable> ::= ‘?′ [⟨word⟩]`
- - `<truth-variable> : apairofrealnumberin[0,1]×(0,1)`
- - `<desire-value> : the same as⟨truth-value⟩`
+     - Covered above - <term>.
+    
+ - `<truth-variable> : a pair of real number in [0,1]×(0,1)`
+     - Terminal - stored possibly in a hashmap w/ the key as the hash of the statement in generated Narsese, and the value being a decodable linear combination of the truth values.
+    
+ - `<desire-value> : the same as ⟨truth-value⟩`
+     - :+1: 
+
  - `<word> : a string in a given alphabet`
+     - Each entry. Connected to and from by semantic links, whose semanticity is dependent upon the functionality of the connector/copulae/relation they are connected using.
 
-### Copulas
+### Copulae
 
-#### Primary Copulas
+#### Primary Copulae
 
  - `→` inheritance  
  - `↔` similarity 
  - `⇒` implication 
  - `⇔` equivalence
 
-#### Secondary Copulas
+#### Secondary Copulae
 
  - `◦→` instance
  - `→◦` property
