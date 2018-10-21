@@ -8,7 +8,7 @@
 
  - `⟨goal⟩ ::= ⟨statement⟩! ⟨desire-value⟩`
 
- - `⟨question⟩ ::= [⟨tense⟩]⟨statement⟩? | ⟨statement⟩¿
+ - `⟨question⟩ ::= [⟨tense⟩]⟨statement⟩? | ⟨statement⟩¿`
 
  - ```⟨statement⟩ ::= (⟨term⟩ ⟨copula⟩ ⟨term⟩) | ⟨term⟩
 		| (¬ ⟨statement⟩)
