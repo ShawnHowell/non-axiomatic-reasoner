@@ -10,29 +10,38 @@
 
  - `⟨question⟩ ::= [⟨tense⟩]⟨statement⟩? | ⟨statement⟩¿`
 
- - ```⟨statement⟩ ::= (⟨term⟩ ⟨copula⟩ ⟨term⟩) | ⟨term⟩
-		| (¬ ⟨statement⟩)
-		| (∧ ⟨statement⟩ ⟨statement⟩+ )
-		| (∨ ⟨statement⟩ ⟨statement⟩+ )
-		| ( , ⟨statement⟩⟨statement⟩+)
-		| ( ; ⟨statement⟩⟨statement⟩+)
-		| (⇑⟨word⟩ ⟨term⟩∗)```
+ - `<statement>` (below)
+ 	```
+ 	⟨statement⟩ ::= (⟨term⟩ ⟨copula⟩ ⟨term⟩) | ⟨term⟩
+				| (¬ ⟨statement⟩)
+				| (∧ ⟨statement⟩ ⟨statement⟩+ )
+				| (∨ ⟨statement⟩ ⟨statement⟩+ )
+				| ( , ⟨statement⟩⟨statement⟩+)
+				| ( ; ⟨statement⟩⟨statement⟩+)
+				| (⇑⟨word⟩ ⟨term⟩∗)
+	```
 
- - ```⟨copula⟩ ::= →|↔|⇒|⇔
-		|◦→ | →◦|◦→◦
-		|/⇒ |\⇒ ||⇒ |/⇔||⇔```
+ - `<copula>` (below)
+ 	```
+ 	⟨copula⟩ ::= →|↔|⇒|⇔
+			|◦→ | →◦|◦→◦
+			|/⇒ |\⇒ ||⇒ |/⇔||⇔
+	```
 
  - `⟨tense⟩ ::= /⇒ | \⇒ | |⇒`
 
- - ```⟨term⟩ ::= ⟨word⟩ | ⟨variable⟩ | ⟨statement⟩
-		| {⟨term⟩+} | [⟨term⟩+]
-		| (∩ ⟨term⟩ ⟨term⟩+)
-		| (∪ ⟨term⟩ ⟨term⟩+)
-		| (− ⟨term⟩ ⟨term⟩)
-		| (⊖ ⟨term⟩ ⟨term⟩)
-		| (× ⟨term⟩ ⟨term⟩+)
-		| (/ ⟨term⟩ ⟨term⟩∗ ⋄ ⟨term⟩∗)
-		| (\ ⟨term⟩ ⟨term⟩∗ ⋄ ⟨term⟩∗)```
+ - `<term>` (below)
+ 	```
+ 	⟨term⟩ ::= ⟨word⟩ | ⟨variable⟩ | ⟨statement⟩
+			| {⟨term⟩+} | [⟨term⟩+]
+			| (∩ ⟨term⟩ ⟨term⟩+)
+			| (∪ ⟨term⟩ ⟨term⟩+)
+			| (− ⟨term⟩ ⟨term⟩)
+			| (⊖ ⟨term⟩ ⟨term⟩)
+			| (× ⟨term⟩ ⟨term⟩+)
+			| (/ ⟨term⟩ ⟨term⟩∗ ⋄ ⟨term⟩∗)
+			| (\ ⟨term⟩ ⟨term⟩∗ ⋄ ⟨term⟩∗)
+	```
 
  - `⟨variable⟩ ::= ⟨independent-variable⟩ | ⟨dependent-variable⟩ | ⟨query-variable⟩`
 
