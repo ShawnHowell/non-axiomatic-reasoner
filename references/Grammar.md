@@ -60,7 +60,7 @@
      - Covered above - <term>.
     
  - `<truth-variable> : a pair of real number in [0,1]×(0,1)`
-     - Terminal - stored possibly in a hashmap w/ the key as the hash of the statement in generated Narsese, and the value being a decodable linear combination of the truth values.
+     - Terminal - stored possibly in a hashmap w/ the key as the hash of the statement in generated Narsese, say `statementHash` and the value being a decodable linear combination of the truth values.
     
  - `<desire-value> : the same as ⟨truth-value⟩`
      - :+1: 
@@ -73,9 +73,16 @@
 #### Primary Copulae
 
  - `→` inheritance  
+     - Standard Holochain Link (base: subject && link: predicate)
+    
  - `↔` similarity 
+     - Bidirectional Holochain Link
+
  - `⇒` implication 
+     - Link from `base: antecedentStatementHash` to `link: consequentStatementHash` with `tag: implication`
+    
  - `⇔` equivalence
+     - Bidirectional Link from `base: antecedentStatementHash` to `link: consequentStatementHash` with `tag: equivalence` on both
 
 #### Secondary Copulae
 
