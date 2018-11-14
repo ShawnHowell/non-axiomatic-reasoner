@@ -1,0 +1,14 @@
+{
+  "name": "HoloNAL",
+  "description": "A Non-Axiomatic Inference System built on Holochain.",
+  "authors": [
+    {
+      "indentifier": "Suraj Jena <jena.suraj.k@gmail.com>",
+      "public_key_source": "",
+      "signature": ""
+    }
+  ],
+  "version": "0.1.0",
+  "dht": {},
+  "properties": null
+}
